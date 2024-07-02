@@ -1,0 +1,309 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eafdf8;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    background-color: #D1B1CB;
+    color: #7c616c;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 100rem;
+    margin-bottom: 30px; /* Adjusted margin */
+    margin-top: 50px; /* New margin-top value */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eafdf8;
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Landing page styles */
+.landing {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.landing h1 {
+    font-size: 36px;
+    color: #7c616c
+}
+
+.landing p {
+    font-size: 18px;
+    color: #eafdf8;
+}
+
+
+/* Hero section styles */
+.hero {
+    background-image: url('Background.jpeg');
+    background-size: cover;
+    background-position: center top -170px; /* Adjusted background position */
+    color: #7c616c;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d1b1cb;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddcad9;
+}
+
+/* Navigation Button Styles */
+.navigation {
+    text-align: center;
+    padding: 50px 0;
+    color: #7c616c;
+}
+
+.navigation h2 {
+    margin-bottom: 30px;
+}
+
+.navigation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navigation-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-card:hover .btn {
+    background-color: #ddcad9;
+}
+
+.navigation-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.navigation-card .btn {
+    display: block;
+    padding: 15px 0;
+    background-color: #d1b1cb;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+/* Login page styles */
+.login {
+    text-align: center;
+    padding: 50px 0;
+    color: #7c616c;
+}
+
+.login h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    width:50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px 0;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+/* Networking page*/
+.networking {
+    text-align: center;
+    padding: 50px 0;
+    color: #7c616c;
+}
+
+.networking h2 {
+    margin-bottom: 30px;
+}
+.networking-card {
+    background-color: #D1B1CB;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.networking-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+textarea {
+    height: 150px; /* Adjust height for textarea */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #D1B1CB;
+    color: #eafdf8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Feedback Form Styles */
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: calc(100% - 20px); /* Adjust width for input fields */
+    margin-bottom: 20px;
+}
+
+.feedback-form button[type="submit"] {
+    width: 100%;
+}
+
+/* Additional Styles can be added for specific pages and elements as needed */
